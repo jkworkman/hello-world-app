@@ -42,7 +42,14 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
     if (theTextField == self.textfield) {
-        [theTextField resignFirstResponder];
+        self.userName = self.textfield.text;
+        
+        NSString *nameString = self.userName;
+        if ([nameString length] == 0) {
+            nameString = @"World";
+        }
+        NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+        self.label.text = greeting;        [theTextField resignFirstResponder];
     }
     return YES;
 }
