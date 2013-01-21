@@ -49,7 +49,8 @@
             nameString = @"World";
         }
         NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
-        self.label.text = greeting;        [theTextField resignFirstResponder];
+        self.label.text = greeting;
+        [theTextField resignFirstResponder];
     }
     return YES;
 }

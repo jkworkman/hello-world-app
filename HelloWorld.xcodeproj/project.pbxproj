@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C03D1C816ADE55600476BED /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C03D1C716ADE55600476BED /* README.txt */; };
 		1C40336716A8682900C29389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C40336616A8682900C29389 /* UIKit.framework */; };
 		1C40336916A8682900C29389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C40336816A8682900C29389 /* Foundation.framework */; };
 		1C40336B16A8682900C29389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C40336A16A8682900C29389 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C03D1C716ADE55600476BED /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		1C40336216A8682800C29389 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C40336616A8682900C29389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C40336816A8682900C29389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +58,7 @@
 		1C40335716A8682800C29389 = {
 			isa = PBXGroup;
 			children = (
+				1C03D1C716ADE55600476BED /* README.txt */,
 				1C40336C16A8682900C29389 /* HelloWorld */,
 				1C40336516A8682800C29389 /* Frameworks */,
 				1C40336316A8682800C29389 /* Products */,
@@ -164,6 +167,7 @@
 				1C40337B16A8682900C29389 /* Default@2x.png in Resources */,
 				1C40337D16A8682900C29389 /* Default-568h@2x.png in Resources */,
 				1C40338016A8682900C29389 /* MainStoryboard.storyboard in Resources */,
+				1C03D1C816ADE55600476BED /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				1C40338816A8682900C29389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
